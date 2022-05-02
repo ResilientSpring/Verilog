@@ -16,5 +16,4 @@ assign or_out = in1 | in2;
 assign out1 = and_out ^ or_out;
 assign out2 = ~ in2;
 
-    
 endmodule
