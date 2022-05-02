@@ -1,9 +1,9 @@
-'`timescale 1ns/1ps
+`timescale 1ns/1ps
 
 module first_system_tb;
 
 // Inputs
-reg in1t, int2;
+reg in1t, in2t;
 
 // outputs
 wire out1t, out2t;
