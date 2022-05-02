@@ -27,7 +27,7 @@ end
 
 // Display the result on the Tcl console (Optional)
 initial begin
-    $Display ("  in1  in2  out1  out2");
+    $display ("  in1  in2  out1  out2");
     $monitor("\t%b \t%b \t%b \t%b", in1t, in2t, out1t, out2t);
 end
 
