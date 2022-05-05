@@ -1,4 +1,4 @@
-module(SW, LEDR);
+module TopLevel(SW, LEDR);
 
 input [0:9] SW;
 output [0:9] LEDR;
