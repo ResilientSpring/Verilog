@@ -17,5 +17,8 @@ wire clk_in, reset_in;
 
 // Hook elements together.
 assign clk_in = Clock_IN;
+assign reset_in = Reset;
+assign OUT_High = blink_count[21];
+assign OUT_low = blink_count[20];
     
 endmodule
