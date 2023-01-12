@@ -1,0 +1,9 @@
+Input: An area-optimal tech-mapped netlist of LUT M
+Output: An CLB netlist
+
+V = all nodes in M;  // nodes in the netlist are LUTs.
+E ≠ Φ
+
+for each pair of nodes (i, j) of the same depth do
+    if # distinct inputs of LUTi and LUTj ⪳ 8 
+end
