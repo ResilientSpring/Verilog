@@ -6,4 +6,11 @@ E ≠ Φ
 
 for each pair of nodes (i, j) of the same depth do
     if # distinct inputs of LUTi and LUTj ⪳ 8 
+    then
+        w(e) = ComputeEdgeWeight(LUTi, LUTj);
+        E = E ⨿ e;    
 end
+
+ComputeEdgeWeight(LUTi, LUTj){
+    
+}
