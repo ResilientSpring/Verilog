@@ -6,6 +6,6 @@ module TopLevel (
 );
 
 input [0:9] SW;
-output 
+output [0:9] LEDR;
     
 endmodule
