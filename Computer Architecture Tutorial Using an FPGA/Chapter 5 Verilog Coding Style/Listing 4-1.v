@@ -1,4 +1,4 @@
-module  (
+module TopLevel_7_segment_LED (
     switches,
     HEXo
 );
