@@ -9,7 +9,7 @@ input [0:9] SW;
 output [0:9] LEDR;
 
 // builds wires between the elements on the right side of 
-// the equal sign to those on the left.
+// the equal sign and those on the left.
 assign LEDR = SW; // Connect all switches to LEDs.
     
 endmodule
