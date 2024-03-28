@@ -11,7 +11,7 @@ endmodule
 
 module Wire5(opcode, display);
 
-intput [0:4] opcode;
+input [0:4] opcode;
 output [0:4] display;
 
 assign display = opcode;
