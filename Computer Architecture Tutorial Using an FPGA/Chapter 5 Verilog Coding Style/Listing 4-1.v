@@ -1,6 +1,6 @@
 module TopLevel_7_segment_LED (
     switches,
-    HEXo
+    HEX0
 );
 
 input [0:6] switches;
