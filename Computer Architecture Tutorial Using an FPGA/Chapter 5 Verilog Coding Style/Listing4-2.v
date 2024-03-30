@@ -16,7 +16,6 @@ module TopLevel (
 
             if(num == 1) digit = 8'b11111001;  // Display 1
 
-
         end
         
     endfunction
