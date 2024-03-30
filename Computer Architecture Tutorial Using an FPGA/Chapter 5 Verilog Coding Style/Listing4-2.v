@@ -20,7 +20,7 @@ module TopLevel (
         
     endfunction
 
-    assign LEDR = SW;
+    assign LEDR = SW;  // This wires each of the six switches to a corresponding LED.
     assign HEX0 = digit(SW[0]);
     assign HEX1 = digit(SW[1]);
     assign HEX2 = digit(SW[2]);
