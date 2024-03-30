@@ -10,7 +10,7 @@ module TopLevel (
 
     // function "digit" will produce an 8-bit output vector.
     function automatic [0:7] digit;  // The "automatic" keyword is optional here, but a good practice if a simulation were to be run.
-        input num;
+        input num;  // The input to this function is only one bit, named "num".
 
         begin
             if(num == 0) digit = 8'b11000000;  // Display 0
@@ -28,5 +28,7 @@ module TopLevel (
     assign HEX3 = digit(SW[3]);
     assign HEX4 = digit(SW[4]);
     assign HEX5 = digit(SW[5]);
+    // Actually, each switch is one bit that is translated by the "digit" function into an 8-bit
+    // vector that is "wired" to the eight segments of a HEX display.
 
 endmodule
