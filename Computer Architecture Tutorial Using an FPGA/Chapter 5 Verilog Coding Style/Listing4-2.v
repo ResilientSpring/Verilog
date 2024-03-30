@@ -8,7 +8,7 @@ module TopLevel (
     output [0:5] LEDR;
     output [0:7] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
 
-    function automatic[0:7] digit;
+    function automatic [0:7] digit;
         input num;
 
         begin
@@ -20,7 +20,7 @@ module TopLevel (
         
     endfunction
 
-    assign LEDR = SW;
+    assign LEDR = SW;  // This wires each of the six switches to a corresponding LED.
     assign HEX0 = digit(SW[0]);
     assign HEX1 = digit(SW[1]);
     assign HEX2 = digit(SW[2]);
