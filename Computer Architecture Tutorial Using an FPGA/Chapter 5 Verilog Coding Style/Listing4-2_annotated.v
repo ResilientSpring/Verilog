@@ -6,6 +6,8 @@ module TopLevel (
     
     input [0:5] SW;
     output [0:5] LEDR;
+
+    // This code only uses six switches because there are only six 7-segment displays on the DE10-Lite.
     output [0:7] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5;
 
     // function "digit" will produce an 8-bit output vector.
