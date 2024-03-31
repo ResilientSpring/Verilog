@@ -16,10 +16,16 @@ function automatic [0:7] digit(input state);
     
     begin
         if (state == 0) begin
-            
+            return 8'b11000000;
+        end
+
+        if (state == 1) begin
+            return 8'b11111001;
         end
     end
     
 endfunction
+
+
     
 endmodule
