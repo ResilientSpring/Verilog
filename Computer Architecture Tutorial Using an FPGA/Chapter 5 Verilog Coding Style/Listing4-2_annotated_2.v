@@ -16,7 +16,6 @@ module TopLevel (
         input num;  // stores the status of the input switch.
 
         begin
-
             
             // if the switch is turned down.
             if(num == 0) 
