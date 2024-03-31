@@ -15,6 +15,9 @@ module TopLevel (
         input num;  // The input to this function is only one bit, named "num".
 
         begin
+
+            
+
             if(num == 0) digit = 8'b11000000;  // Display 0
 
             if(num == 1) digit = 8'b11111001;  // Display 1
