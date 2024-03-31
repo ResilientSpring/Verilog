@@ -25,5 +25,7 @@ function automatic [0:7] digit(input state);
     end
     
 endfunction
+
+
     
 endmodule
