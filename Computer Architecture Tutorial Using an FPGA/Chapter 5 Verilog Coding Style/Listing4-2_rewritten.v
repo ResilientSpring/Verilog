@@ -14,6 +14,11 @@ input [0:5] SW;
 
 function automatic [0:7] digit(input state);
     
+    begin
+        if (state == 0) begin
+            
+        end
+    end
     
 endfunction
     
