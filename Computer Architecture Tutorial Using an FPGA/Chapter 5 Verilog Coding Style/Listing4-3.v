@@ -25,7 +25,8 @@ end
 // if a switch is up, then the corresponding LED will be lit.
 assign LEDR = SW; 
 
-
+assign HEX0 = digit(SW[0]);
+assign HEX1 = digit(SW[1]);
     
 endfunction
 
