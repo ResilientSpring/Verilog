@@ -27,5 +27,7 @@ function automatic [0:7] digit(input state);
 endfunction
 
 assign LEDR = SW;
+
+HEX0 = digit(SW[0]);
     
 endmodule
