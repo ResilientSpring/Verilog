@@ -29,5 +29,6 @@ endfunction
 assign LEDR = SW;
 
 assign HEX0 = digit(SW[0]);
+assign HEX1 = digit(SW[1]);
     
 endmodule
