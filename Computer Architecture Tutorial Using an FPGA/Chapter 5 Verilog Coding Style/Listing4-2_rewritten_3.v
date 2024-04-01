@@ -30,5 +30,9 @@ assign LEDR = SW;
 
 assign HEX0 = digit(SW[0]);
 assign HEX1 = digit(SW[1]);
+assign HEX2 = digit(SW[2]);
+assign HEX3 = digit(SW[3]);
+assign HEX4 = digit(SW[4]);
+assign HEX5 = digit(SW[5]);
     
 endmodule
