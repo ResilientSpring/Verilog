@@ -28,6 +28,6 @@ endfunction
 
 assign LEDR = SW;
 
-HEX0 = digit(SW[0]);
+assign HEX0 = digit(SW[0]);
     
 endmodule
