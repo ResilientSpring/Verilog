@@ -10,6 +10,23 @@ module TopLevel (
     output HEX0, HEX1, HEX2, HEX3, HEX4, HEX5
 );
 
+function [0:7] digit;
+    input state;
+    
+    begin
+        
+        if (state == 1) begin
+            digit = 8'b11111001;
+        end
+
+        if (state == 0) begin
+            digit = 8'b11000000;
+        end
+
+    end
+    
+endfunction
+
 
     
 endmodule
