@@ -7,7 +7,12 @@
 module TopLevel (
     input [0:5] SW;
     output [0:5] LEDR;
-    output HEX0, HEX2, HEX3, HEX4, HEX5;
+    output [0:7] HEX0, HEX2, HEX3, HEX4, HEX5;
 );
+
+function [0:7] digit;
+    ;
+    
+endfunction
     
 endmodule
