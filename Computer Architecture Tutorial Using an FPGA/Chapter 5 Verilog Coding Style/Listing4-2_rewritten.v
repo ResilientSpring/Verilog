@@ -26,6 +26,6 @@ function automatic [0:7] digit(input state);
     
 endfunction
 
-
+assign LEDR = SW;
     
 endmodule
