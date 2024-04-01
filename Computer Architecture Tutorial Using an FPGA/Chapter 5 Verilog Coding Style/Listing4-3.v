@@ -28,6 +28,7 @@ assign LEDR = SW;
 assign HEX0 = digit(SW[0]);
 assign HEX1 = digit(SW[1]);
 assign HEX2 = digit(SW[2]);
+assign HEX3 = digit(SW[3]);
     
 endfunction
 
