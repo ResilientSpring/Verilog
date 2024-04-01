@@ -25,6 +25,7 @@ end
 // if a switch is up, then the corresponding LED will be lit.
 assign LEDR = SW; 
 
+
     
 endfunction
 
