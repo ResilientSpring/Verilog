@@ -21,5 +21,6 @@ function [7:0] digit(input [1:0] num);
     
 endfunction
 
+assign HEX0 = digit(SW[1:0]);
     
 endmodule
