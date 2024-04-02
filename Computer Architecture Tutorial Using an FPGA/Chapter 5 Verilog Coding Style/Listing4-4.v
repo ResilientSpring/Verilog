@@ -27,5 +27,11 @@ function [7:0] digit;
     end
     
 endfunction
+
+assign LEDR = SW;
+
+assign HEX0 = digit(SW[1:0]);
+assign HEX1 = digit(SW[3:2]);
+assign HEX2 = digit(SW[5:4]);
     
 endmodule
