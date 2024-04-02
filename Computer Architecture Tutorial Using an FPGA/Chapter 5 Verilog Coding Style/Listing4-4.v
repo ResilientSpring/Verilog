@@ -16,6 +16,10 @@ function [7:0] digit;
             digit = 8'b11111001;
         end
 
+        if (num == 2) begin
+            digit = 8'b10100100;
+        end
+
     end
     
 endfunction
