@@ -20,6 +20,10 @@ function [7:0] digit;
             digit = 8'b10100100;
         end
 
+        if (num == 3) begin
+            digit = 10110000;
+        end
+
     end
     
 endfunction
