@@ -9,7 +9,12 @@ assign LEDR = SW;
 
 function [7:0] digit(input [1:0] num);
     
-    
+    begin
+        case (num)
+            2'b00: digit = 8'b11000000; 
+            default: 
+        endcase
+    end
     
 endfunction
 
