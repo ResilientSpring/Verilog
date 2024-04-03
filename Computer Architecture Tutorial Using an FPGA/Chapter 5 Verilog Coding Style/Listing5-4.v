@@ -9,8 +9,7 @@ assign LEDR[0] = result;
 
 always @(SW[0], SW[1]) begin
 
-   result = SW[0]; 
-
+   result = SW[0] & SW[1];
 
 end
     
