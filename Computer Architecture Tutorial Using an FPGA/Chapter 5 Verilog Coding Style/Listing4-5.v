@@ -15,7 +15,7 @@ function [7:0] digit(input [1:0] num);
             2'b01: digit = 8'b11111001;
             2'b10: digit = 8'b10100100;
             2'b11: digit = 8'b10110000;
-            default: 
+        //  default: 
         endcase
     end
     
