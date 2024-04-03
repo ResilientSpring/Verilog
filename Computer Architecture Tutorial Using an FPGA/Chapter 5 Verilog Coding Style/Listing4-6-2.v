@@ -19,5 +19,9 @@ endcase
 endfunction
 
 
+assign LEDR = SW; 
+
+assign HEX0 = digit(SW[2:0]);
+
     
 endmodule
