@@ -21,7 +21,7 @@ function [7:0] digit;
         end
 
         if (num == 2'b11) begin
-            digit = 10110000;
+            digit = 8'10110000;
         end
 
     end
