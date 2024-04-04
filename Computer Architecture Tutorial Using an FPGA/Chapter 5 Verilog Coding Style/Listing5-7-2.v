@@ -11,6 +11,6 @@ always @(SW[0] or SW[1] or SW[2]) begin
 
 end
 
-
+assign LEDR[0] = openDoor;
     
 endmodule
