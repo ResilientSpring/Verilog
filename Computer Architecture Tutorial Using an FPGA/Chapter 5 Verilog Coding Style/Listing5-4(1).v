@@ -12,5 +12,13 @@ always @(SW[0], SW[1]) begin
     assign result = SW[0] ^ SW[1];
     
 end
+
+always @(SW[0], SW[1]) begin
+    assign result = SW[0] | SW[1];
+end
+
+always @(SW[0] or SW[1]) begin
+    assign result = SW[0] ~ SW[1];
+end
     
 endmodule
