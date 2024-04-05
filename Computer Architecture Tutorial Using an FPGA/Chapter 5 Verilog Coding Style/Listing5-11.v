@@ -3,9 +3,9 @@ module TopLevel (
     output [1:0] LEDR
 );
 
+
+
 always @(*) begin
-    
-    
 
 
 end
