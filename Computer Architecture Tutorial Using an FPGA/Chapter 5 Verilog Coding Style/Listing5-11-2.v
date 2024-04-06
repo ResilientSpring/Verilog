@@ -13,8 +13,6 @@ always @(*) begin
 
 end
 
-assign LEDR[0] = result;
-
-assign LEDR[1] = outcome;
+assign LEDR[0] = result, LEDR[1] = outcome;
     
 endmodule
